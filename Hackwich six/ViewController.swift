@@ -10,9 +10,11 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var myFriendsArray = ["Sara", "Nicole", "Grant"]
+    var restaurantNameArray = ["Kapolei Kalapawai"]
     
     var travellingArray = ["Japan", "Canada", "United Kingdom", "Italy", "South Korea"]
+    
+     var restaurantCityArray = ["Kapolei"]
     
      var restaurantImageData = [String]()
     
@@ -37,16 +39,18 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return travellingArray.count
+        return restaurantNameArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellReuseIdentifier")
         
-        let text = travellingArray[indexPath.row]
+        let text = restaurantNameArray[indexPath.row]
         
         cell?.textLabel?.text = text
+        
+        cell?.detailTextLabel?.text = restaurantCityArray[indexPath.row]
         
         return cell!
     }
