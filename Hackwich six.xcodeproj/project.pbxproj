@@ -13,6 +13,8 @@
 		CF97DEA32901243F0016C7EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF97DEA12901243F0016C7EA /* Main.storyboard */; };
 		CF97DEA5290124410016C7EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF97DEA4290124410016C7EA /* Assets.xcassets */; };
 		CF97DEA8290124410016C7EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF97DEA6290124410016C7EA /* LaunchScreen.storyboard */; };
+		CFD35DDD291212FD001F0F30 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFD35DDC291212FD001F0F30 /* Property List.plist */; };
+		CFD35DDF29121430001F0F30 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD35DDE29121430001F0F30 /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CF97DEA4290124410016C7EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF97DEA7290124410016C7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF97DEA9290124410016C7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD35DDC291212FD001F0F30 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Property List.plist"; sourceTree = SOURCE_ROOT; };
+		CFD35DDE29121430001F0F30 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +61,12 @@
 			isa = PBXGroup;
 			children = (
 				CF97DE9B2901243F0016C7EA /* AppDelegate.swift */,
+				CFD35DDE29121430001F0F30 /* detailViewController.swift */,
 				CF97DE9D2901243F0016C7EA /* SceneDelegate.swift */,
 				CF97DE9F2901243F0016C7EA /* ViewController.swift */,
 				CF97DEA12901243F0016C7EA /* Main.storyboard */,
 				CF97DEA4290124410016C7EA /* Assets.xcassets */,
+				CFD35DDC291212FD001F0F30 /* Property List.plist */,
 				CF97DEA6290124410016C7EA /* LaunchScreen.storyboard */,
 				CF97DEA9290124410016C7EA /* Info.plist */,
 			);
@@ -127,6 +133,7 @@
 			files = (
 				CF97DEA8290124410016C7EA /* LaunchScreen.storyboard in Resources */,
 				CF97DEA5290124410016C7EA /* Assets.xcassets in Resources */,
+				CFD35DDD291212FD001F0F30 /* Property List.plist in Resources */,
 				CF97DEA32901243F0016C7EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +148,7 @@
 				CF97DEA02901243F0016C7EA /* ViewController.swift in Sources */,
 				CF97DE9C2901243F0016C7EA /* AppDelegate.swift in Sources */,
 				CF97DE9E2901243F0016C7EA /* SceneDelegate.swift in Sources */,
+				CFD35DDF29121430001F0F30 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
